@@ -1,0 +1,7 @@
+form {margin:1em; width:30%;display:grid; grid-template-columns:10em 10em; gap:1em;border:1px solid black; padding: 1em; border-radius:25px}
+h1 {text-align:center;padding:1em}
+header {border: 1px solid black; background-color:#dedeca; border-radius:20px }
+#wrapper {width:80%; margin:auto;}
+main {border:1px solid #000000; padding-left: 1em; border-radius: 25px}
+#paystub {visibility:hidden;border:1px solid black; border-radius: 25px; padding: 2em}
+#paystub h2{text-align:center; background-color:#dedeca; padding:1em}
