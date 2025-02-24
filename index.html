@@ -13,6 +13,7 @@
 				let name = document.forms["myForm"]["myName"].value;
 				let rate = document.forms["myForm"]["myPay"].value;
 				let hours = document.forms["myForm"]["myHours"].value;
+				let totalHours = hours;
 				let overtime = 0;
 				let overtimeRate = 0;
 				
@@ -26,7 +27,7 @@
 				document.getElementById("paystub").style.visibility = "visible";
 				document.getElementById("content").style.visibility = "hidden";
 				document.getElementById("name").innerHTML = "Name: " + name;
-				document.getElementById("hours").innerHTML = "&emsp;Total hours worked: " + hours;
+				document.getElementById("hours").innerHTML = "&emsp;Total hours worked: " + totalHours;
 				document.getElementById("overtime").innerHTML = "&emsp;Overtime hours: " + overtime;
 				document.getElementById("rate").innerHTML = "&emsp;Rate of pay: " + rate + "/hr";
 				document.getElementById("overrate").innerHTML = "&emsp;Rate of overtime pay: " + overtimeRate  + "/hr";
@@ -72,7 +73,7 @@
 			<p id="overrate"><p>
 			<hr>
 			<p id="pay"><p>
-			<button onclick="resetPage();return false">Back<button>
+			<button onclick="resetPage();return false">Back</button>
 		</div>
 		
 		</div>
